@@ -1,0 +1,188 @@
+{
+  "user":{
+
+    "name":"Nilton César",
+    "photo": "https://avatars.githubusercontent.com/u/104584538?v=4",
+    "job": "Desenvolvedor Fullstack",
+    "location": "Boquim - SE",
+    "phone": "https://api.whatsapp.com/send?phone=5579996817729&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Tenho%20interesse%20em%20contratar%20os%20servi%C3%A7os%20da%20empresa",
+    "linkedin": "Linkedin",
+    "email": "mailto: niltoncesarsantos468@gmail.com"
+  } ,
+ 
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "JavaScript",
+        "logo": ""
+      },
+      {
+        "name": "Node",
+        "logo": ""
+      },
+      {
+        "name": "React",
+        "logo": ""
+      },
+      {
+        "name": "Mongo",
+        "logo": ""
+      },
+      {
+        "name": "MySQL",
+        "logo": ""
+      },
+      {
+        "name": "PostgresSQL",
+        "logo": ""
+      },
+      {
+        "name": "Git",
+        "logo": ""
+      },
+      {
+        "name": "GitHub",
+        "logo": ""
+      },
+      {
+        "name": "HTML",
+        "logo": ""
+      },
+      {
+        "name": "CSS",
+        "logo": ""
+      },
+      {
+        "name": "Java",
+        "logo": ""
+      },
+      {
+        "name": "Python",
+        "logo": ""
+      },
+      {
+        "name": "VsCode",
+        "logo": ""
+      }
+    ],
+    "softSkills": [
+      "Capacidade analítica",
+      "Comunicação",
+      "Trabalho em equipe",
+      "Pontualidade",
+      "Organização",
+      "Flexibilidade"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)"
+  ],
+  "portfolio": [
+    {
+      "name": "Landing page (feijoada) ",
+      "url": "https://feijoadamaissabor.netlify.app/",
+      "github": true
+    },
+    {
+      "name": "Landing page (muito mais que saúde)",
+      "url": "https://muitomaisquesaude.netlify.app/",
+      "github": true
+    },
+    {
+      "name": "Criação do meu portfólio",
+      "url": "",
+      "github": true
+    },
+    {
+      "name": "Criação de um projeto full stack de barbearia",
+      "url":  "https://github.com/NiltonCsantos/barbershop-front",
+      "github": true
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Hcia IFS/Huawaii",
+      "date": "mai - 2023",
+      "description": "Curso de inteligência artificial - IFS/Huawaii",
+      "url": ""
+    },
+    {
+      "name": "Node",
+      "date": "fev - 2023",
+      "description": "Curso de NodeJs - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/0jRZFnl7LoCraLf"
+    },
+    {
+      "name": "MongoDB",
+      "date": "fev - 2023",
+      "description": "Curso banco de dados não relacionais. - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/3WrObIrjDBPT3n9"
+    },
+    {
+      "name": "Git e GiTHub",
+      "date": "mai - 2023",
+      "description": "Curso de vercionamento de código - OneBitCode.",
+      "url": "https://cdn.areademembros.com/cert/pbRXiq0JmOH0JZu"
+    },
+    {
+      "name": "APP inspirado no Evernote",
+      "date": "abril - 2023",
+      "description": "Curso projeto full stack (tecnologias utilizadas: React, Node e MongoDB) - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/3WrObIrjDBPT3n9"
+    },
+    {
+      "name": "JavaScript avançado",
+      "date": "dezembro - 2022",
+      "description": "Tópicos avançados em Javascrip - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/YA8juYJGrQhE73s"
+    },
+    {
+      "name": "Introdução a Linguagem de Programação Python ",
+      "date": "jul - 2022",
+      "description": "Introdução a Linguagem de Programação Python e construção de robô digital para automação de tarefas - IFS",
+      "url": ""
+    },
+    {
+      "name": "Ruby",
+      "date": "mai - 2023",
+      "description": "Introdução a linguagem de programação Ruby. - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/P43gS0RYdXTKOpS"
+    },
+    {
+      "name": "React",
+      "date": "fev - 2023",
+      "description": "Curso dominando React (frameword front-end) - OneBitCode.",
+      "url": "https://cdn.areademembros.com/cert/R79QcRaDJyCoB0t"
+    },
+    {
+      "name": "Bootstrap",
+      "date": "dez - 2022",
+      "description": "Curso framework front-end bootstrap. - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/R79YSRaDJyCoBai"
+    },
+    {
+      "name": "Bulma",
+      "date": "mai - 2023",
+      "description": "Curso framework front-end bulma. - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/YAJaUYJGrQhE7Bu"
+    },
+    {
+      "name": "Sass",
+      "date": "jan - 2023",
+      "description": "Curso Framework front-end Sass. - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/deO7sLKDPyTEodt"
+    }, {
+      "name": "HTML5",
+      "date": "nov - 2022",
+      "description": "Linguagem de marcação HTML5  - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/Lal9selqQ6IqQns"
+    },
+    {
+      "name": "CSS Moderno",
+      "date": "dez - 2022",
+      "description": "Linguagem de marcação CSS. - OneBitCode",
+      "url": "https://cursos.onebitcode.com/cert/Lal9selqQ6IqQns"
+    }
+  ]
+}
