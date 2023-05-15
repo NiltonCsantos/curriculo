@@ -8,7 +8,6 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(-45deg, #1e0731, #250d35, #13071d, #000000);
-  color: #ffffff;
 }
 @keyframes gradient {
   0% {
@@ -19,6 +18,11 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 2rem;
   }
 }
 .container main {
@@ -33,7 +37,7 @@
 }
 @media (max-width: 600px) {
   .container main {
-    width: 90%;
+    width: 100%;
   }
 }
 .container main .name {

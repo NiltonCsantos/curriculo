@@ -9,9 +9,6 @@
   justify-content: center;
   background: linear-gradient(-45deg, #1e0731, #250d35, #13071d, #000000);
 
-
-  color: #ffffff;
-
   @keyframes gradient {
     0% {
       background-position: 0% 50%;
@@ -24,6 +21,10 @@
     100% {
       background-position: 0% 50%;
     }
+  }
+
+  @media(max-width:600px){
+    padding: 2rem;
   }
 
   main {
@@ -39,7 +40,7 @@
     width: 70%;
 
     @media (max-width: 600px) {
-      width: 90%;
+      width: 100%;
     }
 
     .name {

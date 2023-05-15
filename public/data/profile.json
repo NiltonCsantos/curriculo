@@ -14,55 +14,55 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": "public/data/images/js.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/js.png?raw=true"
       },
       {
         "name": "Node",
-        "logo": "public/data/images/nodejs.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/nodejs.png?raw=true"
       },
       {
         "name": "React",
-        "logo": "public/data/images/react.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/react.png?raw=true"
       },
       {
         "name": "Mongo",
-        "logo": "public/data/images/mongodb.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/mongodb.png?raw=true"
       },
       {
         "name": "MySQL",
-        "logo": "public/data/images/mysql.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/mysql.png?raw=true"
       },
       {
         "name": "PostgresSQL",
-        "logo": "public/data/images/postgresql.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/postgresql.png?raw=true"
       },
       {
         "name": "Git",
-        "logo": "public/data/images/git.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/git.png?raw=true"
       },
       {
         "name": "GitHub",
-        "logo": "public/data/images/github.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/github.png?raw=true"
       },
       {
         "name": "HTML",
-        "logo": "public/data/images/html.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/html.png?raw=true"
       },
       {
         "name": "CSS",
-        "logo": "public/data/images/css.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/css.png?raw=true"
       },
       {
         "name": "Java",
-        "logo": "public/data/images/java.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/java.png?raw=true"
       },
       {
         "name": "Python",
-        "logo": "public/data/images/python.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/python.png?raw=true"
       },
       {
         "name": "VsCode",
-        "logo": "public/data/images/vscode.png"
+        "logo": "https://github.com/NiltonCsantos/curriculo/blob/main/public/data/images/vscode.png?raw=true"
       }
     ],
     "softSkills": [
