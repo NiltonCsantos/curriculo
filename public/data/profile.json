@@ -14,55 +14,55 @@
     "hardSkills": [
       {
         "name": "JavaScript",
-        "logo": ""
+        "logo": "public/data/images/js.png"
       },
       {
         "name": "Node",
-        "logo": ""
+        "logo": "public/data/images/nodejs.png"
       },
       {
         "name": "React",
-        "logo": ""
+        "logo": "public/data/images/react.png"
       },
       {
         "name": "Mongo",
-        "logo": ""
+        "logo": "public/data/images/mongodb.png"
       },
       {
         "name": "MySQL",
-        "logo": ""
+        "logo": "public/data/images/mysql.png"
       },
       {
         "name": "PostgresSQL",
-        "logo": ""
+        "logo": "public/data/images/postgresql.png"
       },
       {
         "name": "Git",
-        "logo": ""
+        "logo": "public/data/images/git.png"
       },
       {
         "name": "GitHub",
-        "logo": ""
+        "logo": "public/data/images/github.png"
       },
       {
         "name": "HTML",
-        "logo": ""
+        "logo": "public/data/images/html.png"
       },
       {
         "name": "CSS",
-        "logo": ""
+        "logo": "public/data/images/css.png"
       },
       {
         "name": "Java",
-        "logo": ""
+        "logo": "public/data/images/java.png"
       },
       {
         "name": "Python",
-        "logo": ""
+        "logo": "public/data/images/python.png"
       },
       {
         "name": "VsCode",
-        "logo": ""
+        "logo": "public/data/images/vscode.png"
       }
     ],
     "softSkills": [
