@@ -80,7 +80,7 @@
   ],
   "portfolio": [
     {
-      "name": "Landing page (feijoada) ",
+      "name": "Landing page (feijoada mais sabor) ",
       "url": "https://feijoadamaissabor.netlify.app/",
       "github": true
     },
@@ -91,12 +91,12 @@
     },
     {
       "name": "Criação do meu portfólio",
-      "url": "",
+      "url": "https://github.com/NiltonCsantos/curriculo",
       "github": true
     },
     {
       "name": "Criação de um projeto full stack de barbearia",
-      "url":  "https://github.com/NiltonCsantos/barbershop-front",
+      "url":  "https://barbershop-five.vercel.app/",
       "github": true
     }
   ],
@@ -129,7 +129,7 @@
       "name": "APP inspirado no Evernote",
       "date": "abril - 2023",
       "description": "Curso projeto full stack (tecnologias utilizadas: React, Node e MongoDB) - OneBitCode",
-      "url": "https://cursos.onebitcode.com/cert/3WrObIrjDBPT3n9"
+      "url": "https://cursos.onebitcode.com/cert/8xQ4cxbzwBU9zkf"
     },
     {
       "name": "JavaScript avançado",
@@ -176,7 +176,7 @@
       "name": "HTML5",
       "date": "nov - 2022",
       "description": "Linguagem de marcação HTML5  - OneBitCode",
-      "url": "https://cursos.onebitcode.com/cert/Lal9selqQ6IqQns"
+      "url": "https://cursos.onebitcode.com/cert/qrDecLebDxTajas"
     },
     {
       "name": "CSS Moderno",
