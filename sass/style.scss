@@ -35,6 +35,7 @@
     justify-content: center;
     flex-direction: column;
     border: 1px solid #ffffff;
+    border-radius: 1rem;
     padding: 3rem 1rem;
 
     width: 70%;
@@ -102,15 +103,19 @@
       }
 
       section {
+
+       
         .accordion {
           width: 100%;
           display: flex;
           flex-direction: column;
           gap: 1.5rem;
 
+          
+
           .accordion-item {
-            border-radius: 0px 0px 5px 5px;
-            border: 1px solid #ffff;
+            border-radius: 1.2rem ;
+            
 
             background: linear-gradient(
               -45deg,
@@ -222,7 +227,13 @@
             animation: gradient 4s ease infinite;
           }
 
+          #btn{
+            border-radius: 1rem 1rem 0rem 0rem;
+          }
+
           .accordion-body {
+
+        
             h5 {
               display: flex;
               align-items: center;

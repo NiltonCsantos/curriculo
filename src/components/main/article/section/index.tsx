@@ -87,6 +87,7 @@ const Section = () => {
                 data-bs-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
+                id="btn"
               >
                 Habilidades
               </button>
@@ -144,6 +145,7 @@ const Section = () => {
                 data-bs-target="#flush-collapseTwo"
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
+                id="btn"
               >
                 Idiomas
               </button>
@@ -177,6 +179,7 @@ const Section = () => {
                 data-bs-target="#flush-collapseThree"
                 aria-expanded="false"
                 aria-controls="flush-collapseThree"
+                id="btn"
               >
                 Portifólio
               </button>
@@ -215,6 +218,7 @@ const Section = () => {
                 data-bs-target="#flush-collapseFour"
                 aria-expanded="false"
                 aria-controls="flush-collapseFour"
+                id="btn"
               >
                 Certificados
               </button>

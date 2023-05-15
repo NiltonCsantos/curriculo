@@ -32,6 +32,7 @@
   justify-content: center;
   flex-direction: column;
   border: 1px solid #ffffff;
+  border-radius: 1rem;
   padding: 3rem 1rem;
   width: 70%;
 }
@@ -97,8 +98,7 @@
   gap: 1.5rem;
 }
 .container main article section .accordion .accordion-item {
-  border-radius: 0px 0px 5px 5px;
-  border: 1px solid white;
+  border-radius: 1.2rem;
   background: linear-gradient(-45deg, #1e0731, #250d35, #13071d, #000000);
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
@@ -185,6 +185,9 @@
   background: linear-gradient(-45deg, #1e0731, #250d35, #13071d, #000000);
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
+}
+.container main article section .accordion #btn {
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 .container main article section .accordion .accordion-body h5 {
   display: flex;
