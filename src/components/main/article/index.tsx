@@ -39,7 +39,7 @@ const Article = () => {
       linkedin: string,
       email: string}=await Api.getUser();
   
-      setUser(res)
+      setUser(res);
   }
 
   if(("").match(user.name)){

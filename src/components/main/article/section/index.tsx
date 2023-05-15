@@ -52,26 +52,27 @@ const Section = () => {
     ] = await Api.getCertificates();
 
     setCertificates(response);
-    console.log(response)
+ 
   };
 
   if (hardskills.length == 1) {
     GetHardSkills();
+
   }
-  // if (softskills.length == 1) {
-  //   GetSoftSkills();
-  // }
+  if (softskills.length == 1) {
+    GetSoftSkills();
+  }
 
-  // if (languages.length == 1) {
-  //   GetLanguages();
-  // }
-  // if (portfolio.length == 1) {
-  //   GetPortfolio();
-  // }
+  if (languages.length == 1) {
+    GetLanguages();
+  }
+  if (portfolio.length == 1) {
+    GetPortfolio();
+  }
 
-  // if (certificates.length == 1) {
-  //   GetCertificate();
-  // }
+  if (certificates.length == 1) {
+    GetCertificate();
+  }
 
   return (
     <Fragment>
@@ -226,8 +227,8 @@ const Section = () => {
               <div className="accordion-body">
                 {certificates.map((element, index) => {
                   return (
-                    <div>
-                      <h5 key={index}>
+                    <div key={index}>
+                      <h5>
                         <BsFillClipboard2CheckFill className="certificate" />
                         {element.name}
                       </h5>

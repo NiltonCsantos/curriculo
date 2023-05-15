@@ -1,10 +1,18 @@
 const Api = {
   getUser: async () => {
     const response: {
-      user: string;
+      user:{name: string, photo: string,
+      job: string,
+      location: string,
+      phone: string,
+      linkedin: string,
+      email: string;
+      }
     } = await fetch(
       "https://raw.githubusercontent.com/NiltonCsantos/curriculo/main/public/data/profile.json"
     ).then((res) => res.json());
+
+    JSON.stringify(response.user)
 
     return response.user;
   },
@@ -23,40 +31,48 @@ const Api = {
       "https://raw.githubusercontent.com/NiltonCsantos/curriculo/main/public/data/profile.json"
     ).then((res) => res.json());
 
-    console.log(response.skills.hardSkills);
-
     return response.skills.hardSkills;
   },
 
   getSoftSkills: async () => {
     const response: {
-      softSkills: [];
-    } = await fetch("http://localhost:3000/skills").then((res) => res.json());
+      skills:{
+        softSkills: [];
+      }
+      
+    } = await fetch("https://raw.githubusercontent.com/NiltonCsantos/curriculo/main/public/data/profile.json").then((res) => res.json());
 
-    return response.softSkills;
+    return response.skills.softSkills;
   },
 
   getLanguages: async () => {
-    const response: [] = await fetch("http://localhost:3000/languages").then(
+    const response:{
+      languages:[]
+    } = await fetch("https://raw.githubusercontent.com/NiltonCsantos/curriculo/main/public/data/profile.json").then(
       (res) => res.json()
     );
 
-    return response;
+
+    return response.languages;
   },
   getPortifolio: async () => {
-    const response = await fetch("http://localhost:3000/portfolio").then(
+    const response:{
+      portfolio: [{name: string; url: string; github: boolean }]
+    } = await fetch("https://raw.githubusercontent.com/NiltonCsantos/curriculo/main/public/data/profile.json").then(
       (res) => res.json()
     );
 
-    return response;
+    return response.portfolio;
   },
 
   getCertificates: async () => {
-    const response = await fetch("http://localhost:3000/certificates").then(
+    const response:{
+      certificates:[{name: string; date: string; description: string; url: string }]
+    } = await fetch("https://raw.githubusercontent.com/NiltonCsantos/curriculo/main/public/data/profile.json").then(
       (res) => res.json()
     );
 
-    return response;
+    return response.certificates;
   },
 };
 
