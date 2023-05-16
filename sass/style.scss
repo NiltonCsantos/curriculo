@@ -251,12 +251,22 @@
           .languages {
             display: flex;
             gap: 1rem;
+            
+
+            
+            @media(max-width: 410px){
+              flex-direction: column;
+              gap: 0rem;
+            }
 
             p {
               display: flex;
               gap: 5px;
               align-items: center;
               justify-content: center;
+            }@media(max-width: 410px){
+              align-items: flex-start;
+              margin-left: 3rem;
             }
           }
         }

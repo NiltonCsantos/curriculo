@@ -205,11 +205,23 @@
   display: flex;
   gap: 1rem;
 }
+@media (max-width: 410px) {
+  .container main article section .accordion .languages {
+    flex-direction: column;
+    gap: 0rem;
+  }
+}
 .container main article section .accordion .languages p {
   display: flex;
   gap: 5px;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 410px) {
+  .container main article section .accordion .languages {
+    align-items: flex-start;
+    margin-left: 3rem;
+  }
 }
 .container main article section .dropdown {
   font-size: 1.7rem;
