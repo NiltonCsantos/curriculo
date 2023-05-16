@@ -169,7 +169,6 @@
 .container main article section .accordion .accordion-item #skills .container-tools .tools .tools-img {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 .container main article section .accordion .accordion-item #skills .container-tools .tools .tools-img img {
   width: 40px;
@@ -192,7 +191,6 @@
 .container main article section .accordion .accordion-body h5 {
   display: flex;
   align-items: center;
-  gap: 1rem;
 }
 .container main article section .accordion .accordion-body p a {
   color: white;
