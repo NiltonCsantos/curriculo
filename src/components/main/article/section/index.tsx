@@ -181,7 +181,7 @@ const Section = () => {
                 aria-controls="flush-collapseThree"
                 id="btn"
               >
-                Portifólio
+                Portfólio
               </button>
             </h2>
             <div
