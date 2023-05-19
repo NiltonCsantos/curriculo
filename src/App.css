@@ -99,6 +99,7 @@
 }
 .container main article section .accordion .accordion-item {
   border-radius: 1.2rem;
+  --bs-accordion-border-color:"none";
   background: linear-gradient(-45deg, #1e0731, #250d35, #13071d, #000000);
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
@@ -178,7 +179,6 @@
 }
 .container main article section .accordion .accordion-header > button {
   font-size: 1.5rem;
-  color: #ffffff;
 }
 .container main article section .accordion .accordion-button {
   background: linear-gradient(-45deg, #1e0731, #250d35, #13071d, #000000);

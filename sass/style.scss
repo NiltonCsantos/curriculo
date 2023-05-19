@@ -109,8 +109,15 @@
           flex-direction: column;
           gap: 1.5rem;
 
+        
+       
+         
+
           .accordion-item {
             border-radius: 1.2rem;
+            --bs-accordion-border-color:"none";
+            
+           
 
             background: linear-gradient(
               -45deg,
@@ -205,7 +212,7 @@
 
           .accordion-header > button {
             font-size: 1.5rem;
-            color: #ffffff;
+            // color: #ffffff;
           }
 
           .accordion-button {
