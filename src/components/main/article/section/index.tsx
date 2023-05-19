@@ -52,12 +52,10 @@ const Section = () => {
     ] = await Api.getCertificates();
 
     setCertificates(response);
- 
   };
 
   if (hardskills.length == 1) {
     GetHardSkills();
-
   }
   if (softskills.length == 1) {
     GetSoftSkills();
@@ -193,11 +191,13 @@ const Section = () => {
                 {portfolio.map((element, index) => {
                   return (
                     <Fragment key={index}>
-                      <h5>
-                        <FaGithub />
-                        {element.name}
-                      </h5>
-                      <p>
+                      <div id="github">
+                        <span>
+                          <FaGithub id="icon" />
+                        </span>
+                        <h5>{element.name}</h5>
+                      </div>
+                      <p id="project">
                         <a href={element.url} rel="external" target="_blank">
                           {" "}
                           Link do projeto
@@ -232,14 +232,24 @@ const Section = () => {
                 {certificates.map((element, index) => {
                   return (
                     <div key={index}>
-                      <h5>
-                        <BsFillClipboard2CheckFill className="certificate" />
-                        {element.name}
-                      </h5>
+                      <div className="container-certificates">
+                        <span>
+                          <BsFillClipboard2CheckFill className="certificate" />
+                        </span>
+
+                        <h5>{element.name}</h5>
+                      </div>
+
                       <p>{element.date}</p>
                       <p>{element.description} </p>
-                      {element.url!=""?<p>  <a href={element.url} target="_blank" rel="external">Verifique</a></p>: null}
-                     
+                      {element.url != "" ? (
+                        <p>
+                          {" "}
+                          <a href={element.url} target="_blank" rel="external">
+                            Certificado
+                          </a>
+                        </p>
+                      ) : null}
                     </div>
                   );
                 })}

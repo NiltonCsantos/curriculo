@@ -67,7 +67,7 @@ const Article = () => {
       </div>
       <div className="information">
         <h3>
-          <FaLinkedinIn /> <a href="https://www.linkedin.com/in/nilton-ti/" rel="external" target="_blank">{("").match(user.linkedin)?loading: user.linkedin}</a>
+          <FaLinkedinIn /> <a href={user.linkedin} rel="external" target="_blank">{("").match(user.linkedin)?loading: user.linkedin}</a>
         </h3>
       </div>
 

@@ -23,7 +23,7 @@
     }
   }
 
-  @media(max-width:600px){
+  @media (max-width: 600px) {
     padding: 2rem;
   }
 
@@ -66,7 +66,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0px 1px 12px -5px #391655,0px 10px 15px -3px #250d35;
+      box-shadow: 0px 1px 12px -5px #391655, 0px 10px 15px -3px #250d35;
 
       img {
         width: 240px;
@@ -103,19 +103,14 @@
       }
 
       section {
-
-       
         .accordion {
           width: 100%;
           display: flex;
           flex-direction: column;
           gap: 1.5rem;
 
-          
-
           .accordion-item {
-            border-radius: 1.2rem ;
-            
+            border-radius: 1.2rem;
 
             background: linear-gradient(
               -45deg,
@@ -127,7 +122,6 @@
 
             background-size: 400% 400%;
             animation: gradient 4s ease infinite;
-           
 
             #skills {
               display: flex;
@@ -195,7 +189,7 @@
                   .tools-img {
                     display: flex;
                     flex-direction: column;
-                    
+
                     img {
                       width: 40px;
                     }
@@ -227,33 +221,30 @@
             animation: gradient 4s ease infinite;
           }
 
-          #btn{
+          #btn {
             border-radius: 1rem 1rem 0rem 0rem;
           }
 
           .accordion-body {
-
-        
             h5 {
               display: flex;
               align-items: center;
             }
             p a {
-              color: #ffff;
+              color:  #c18dec;
               text-decoration: none;
               &:hover {
                 color: #391655;
               }
             }
           }
+          
 
           .languages {
             display: flex;
             gap: 1rem;
-            
 
-            
-            @media(max-width: 410px){
+            @media (max-width: 410px) {
               flex-direction: column;
               gap: 0rem;
             }
@@ -263,7 +254,8 @@
               gap: 5px;
               align-items: center;
               justify-content: center;
-            }@media(max-width: 410px){
+            }
+            @media (max-width: 410px) {
               align-items: flex-start;
               margin-left: 3rem;
             }
@@ -274,18 +266,30 @@
           font-size: 1.7rem;
           margin-right: 2rem;
         }
+
+        #github {
+          display: flex;
+          gap: 0.7rem;
+
+          #icon {
+            font-size: 1.5rem;
+          }
+        }
+
+        .container-certificates {
+          display: flex;
+          gap: 0.7rem;
+        }
       }
     }
   }
-  aside{
+  aside {
     padding: 2rem;
-    footer{
-
+    footer {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
     }
   }
 }
