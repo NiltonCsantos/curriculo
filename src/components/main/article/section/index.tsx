@@ -233,9 +233,9 @@ const Section = () => {
                   return (
                     <div key={index}>
                       <div className="container-certificates">
-                        <span>
+                        <h5>
                           <BsFillClipboard2CheckFill className="certificate" />
-                        </span>
+                        </h5>
 
                         <h5>{element.name}</h5>
                       </div>
